@@ -1,0 +1,183 @@
+    .header {
+        overflow-x: hidden;
+        padding: 20px 10px;
+        background-color: rgb(255, 255, 255);
+        z-index: 1;
+    }
+    
+    .logo {
+        float: left;
+        color: #88b06a;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 30px;
+        margin-top: 17px;
+        margin-left: 20px;
+        font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+    .header-right a {
+        float: right;
+        color: #88b06a;
+        text-decoration: none;
+        font-size: 21px;
+        text-align: center;
+        padding: 12px;
+        margin-top: 10px;
+    }
+    
+    .header {
+        box-shadow: 0 0 5px grey;
+        box-sizing: border-box;
+        position: fixed;
+        height: 70px;
+        left: 0;
+        padding: 0 12px;
+        top: 0;
+        width: 100%;
+    }
+    /* done with header, now body */
+    
+    .top-box {
+        color: #88b06a;
+        width: 100%;
+        text-align: center;
+        margin-top: 120px;
+    }
+    
+    h4 {
+        font-size: 21px;
+        color: rgb(59, 59, 59);
+    }
+    
+    #call {
+        background-color: #88b06a;
+        text-decoration: none;
+        color: whitesmoke;
+        padding: 20px 40px;
+    }
+    
+    .quote {
+        background-color: #88b06a;
+        text-decoration: none;
+        color: whitesmoke;
+        padding: 20px 40px;
+    }
+    
+    .quote:hover {
+        opacity: 0.6;
+    }
+    /* photos and about me under thos line of text */
+    
+    .big-image {
+        height: 600px;
+        width: 1000px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+    }
+    
+    .outer {
+        background-color: rgb(239, 239, 239);
+        width: 1000px;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-left: 442px;
+        border-radius: 0.1cm;
+    }
+    
+    #abut {
+        padding-top: 100px;
+    }
+    
+    .inside {
+        margin: 20px;
+        text-align: center;
+        margin-top: 60px;
+    }
+    
+    #haaa {
+        margin: 20px;
+    }
+    
+    .row {
+        display: flex;
+        margin-left: -180px;
+    }
+    
+    .column {
+        flex: 20%;
+        padding: 5px;
+        margin: 5px;
+    }
+    
+    .column img {
+        border-radius: 0.1cm;
+    }
+    
+    #gallery {
+        text-align: center;
+        margin-top: 300px;
+    }
+    
+    .everyting {
+        display: flex;
+    }
+    
+    .contact {
+        height: 600px;
+        width: 1000px;
+    }
+    
+    .address {
+        margin-left: 100px;
+    }
+    
+    .business {
+        margin-left: 100px;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    #gl {
+        font-size: 16px;
+        position: absolute;
+        margin-bottom: 30px;
+    }
+    
+    #lls {
+        font-size: 16px;
+        float: right;
+        margin-bottom: 100px;
+    }
+    
+    .button {
+        margin-top: 10px;
+        display: flex;
+    }
+    
+    #sat-sun {
+        margin-right: 90px;
+    }
+    
+    #call {
+        margin-top: 10px;
+        display: flex;
+    }
+    
+    #call:hover {
+        opacity: 0.7;
+    }
+    
+    ul {
+        flex-direction: row;
+        text-align: center;
+    }
+    
+    li {
+        margin: 10px;
+    }
