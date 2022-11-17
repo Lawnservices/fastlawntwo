@@ -1,26 +1,48 @@
-* {
+body {
     margin: 0;
     padding: 0;
 }
 
-.navegacion {
-    font-size: 2rem;
-    box-sizing: border-box;
-    height: 100px;
-    padding: 2rem;
-    display: flex;
-    justify-content: baseline;
-    background-color: rgb(119, 72, 80, 0.6);
-    position: -webkit-sticky;
-    position: sticky;
+.topnav {
+    overflow: hidden;
+    background-color: #00758f;
     top: 0;
+    position: sticky;
 }
 
-.navegacion a {
-    text-decoration: none;
-    font-size: 2rem;
+.topnav a {
+    float: left;
+    display: block;
     color: #fff;
-    margin-left: 16px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: #00758f;
+    transition: ease-in-out 1s;
+}
+
+.topnav a.active {
+    background-color: #04aa6b;
+    color: #fff;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
 }
 
 .piepagina {
